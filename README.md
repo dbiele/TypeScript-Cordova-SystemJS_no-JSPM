@@ -416,6 +416,14 @@ You can add system.import in index.html, but I prefer to include it in separate 
 
 ## Load jQuery ##
     System.import('lib/jquery/jquery.js'); 
+ or 
+
+Map jquery in the config.js and use
+ 
+	System.import('jquery');
+
+![](./MANAGEMENT/md/media/imageconfig.png)
+
 
 ## Merges Folder ##
 
