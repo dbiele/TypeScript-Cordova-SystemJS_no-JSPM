@@ -296,19 +296,21 @@ gulp.task(**'tslint'**, function () {
     3.  Es6-promise
 
 2.  Add the following to gulpfile.js
-
+###
     require('es6-promise').polyfill();
     gulp.task(**'build.css.sass'**, function () {
-    gulp.src('./MANAGEMENT/md/scripts/components/materials/components/\*\*/\*.scss')
+    gulp.src('./scripts/components/materials/components/\*\*/\*.scss')
+
     // Guilp-Sass runs the pre processor on the .scss files using Sass.
     // Gulp-AutoPrefixer post processes the .css files using PostCSS.
     // CSS and Folder structure is saved to destination folder.
+    
     .pipe(sass().on('error', sass.logError))
     .pipe(prefixer({
     browsers: \['last 2 versions'\],
     cascade: false
     }))
-    .pipe(gulp.dest('./MANAGEMENT/md/www/css'));
+    .pipe(gulp.dest('./www/css'));
     > });
 
 ### Add install tsd
@@ -316,7 +318,7 @@ gulp.task(**'tslint'**, function () {
     gulp.task(**'install.tsd'**, function (callback) {
     ts({
     command: 'reinstall',
-    config: './MANAGEMENT/md/tsd.json'
+    config: '.tsd.json'
     }, callback);
     });
 
@@ -326,7 +328,7 @@ gulp.task(**'tslint'**, function () {
     gulp.task(**'browser.sync'**, function () {
     browserSync.init({
     server: {
-    baseDir:"./MANAGEMENT/md/www/"
+    baseDir:"./www/"
     }
     });
 
