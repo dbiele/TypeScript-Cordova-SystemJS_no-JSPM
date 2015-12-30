@@ -234,7 +234,8 @@ Install d.ts files for TypeScript
 
     npm install tsd –g
 
-2.  Open the command prompt/powershell at the scripts folder and Install system d.ts file using tsd.
+2.  Open the command prompt/powershell at the root folder and Install system d.ts file using tsd.
+![](./MANAGEMENT/md/media/dts-filelocation.png)
 
     tsd install systemjs –s
 
