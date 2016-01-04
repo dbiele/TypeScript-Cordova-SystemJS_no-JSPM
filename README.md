@@ -1,3 +1,8 @@
+#Please use: 
+#[https://github.com/dbiele/TypeScript-Cordova-SystemJS-Angular2-beta](https://github.com/dbiele/TypeScript-Cordova-SystemJS-Angular2-beta) 
+
+# This repository is outdated. 
+
 TypeScript + Cordova + SystemJS minus JSPM
 
 Installing the Software
