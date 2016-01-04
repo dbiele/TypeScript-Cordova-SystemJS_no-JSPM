@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "jspm_testing", "jspm_testing.jsproj", "{9C9624F9-AD1E-479B-8E3D-849574860E42}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "cordova-angular2", "cordova-angular2.jsproj", "{9C9624F9-AD1E-479B-8E3D-849574860E42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
